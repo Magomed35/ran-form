@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <div class="gauche">
+    <div class="titre">
+        <h2>INFORMATIONS</h2>
+    </div>
+    <form class="premier">
+        <div class="informations">
+        <fieldset>
+        <label for="">Nom</label>
+        <input type="text" name="nom"/>
+        </fieldset>
+        
+        <fieldset>
+        <label for="">Prenom</label>
+        <input type="text" name="prenom"/>
+        </fieldset>
+        
+        <fieldset>
+        <label for="">Email</label>
+        <input type="text" name="email"/>
+        </fieldset>
+        
+        <fieldset>
+        <label for="">Téléphone</label>
+        <input type="text" name="tel"/>
+        </fieldset>
+        
+        <fieldset>
+        <label for="">Linkedin</label>
+        <input type="text" name="linkedin"/>
+        </fieldset>
+        
+        <fieldset>
+        <label for="">GitHub</label>
+        <input type="text" name="github"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="">Biographie</label>
+            <input type="textarea" name="bio"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="">Loisir 1</label>
+            <input type="text" name="loisir1"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="">Loisir 2</label>
+            <input type="text" name="loisir2"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="">Loisir 3</label>
+            <input type="text" name="loisir3"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="">Loisir 4</label>
+            <input type="text" name="loisir4"/>
+        </fieldset>
+        
+        <div class="lll">
+        <h3>Langues</h3>
+        
+        <fieldset id="francais" class="check">
+        <input type="checkbox"/>
+        <label for="">Français</label>
+        </fieldset>
+        
+        <fieldset id="anglais" class="check">
+        <input type="checkbox"/>
+        <label for="">Anglais</label>
+        </fieldset>
+        
+        <fieldset id="arabe"  class="check">
+        <input type="checkbox"/>
+        <label for="">Arabe</label>
+        </fieldset>
+        
+        <fieldset id="breton"  class="check">
+        <input type="checkbox"/>
+        <label for="">Breton</label>
+        </fieldset>
+        
+        <fieldset id="espagnol"  class="check">
+        <input type="checkbox"/>
+        <label for="">Espagnol</label>
+        </fieldset>
+        
+        </div>
+    </div>
+    
+    <button type="submit" class="envoyer">ENVOYER</button>
+    </form>
+    </div>
+    
+    <div class="droite">
+        <div class="titre">
+            <h2>COMPETENCES</h2>
+        </div>
+        <form>
+            <h3>Langages de Programmation</h3>
+            
+            <div class="lll">
+                
+            <fieldset id="html" class="check">
+            <input type="checkbox"/>
+            <label for="">HTML</label>
+            </fieldset>
+        
+            <fieldset id="css" class="check">
+            <input type="checkbox"/>
+            <label for="">CSS</label>
+            </fieldset>
+        
+            <fieldset id="javascript" class="check">
+            <input type="checkbox"/>
+            <label for="">JavaScript</label>
+            </fieldset>
+        
+            <fieldset id="php" class="check">
+            <input type="checkbox"/>
+            <label for="">PHP</label>
+            </fieldset>
+        
+            <fieldset id="sql" class="check">
+            <input type="checkbox"/>
+            <label for="">SQL</label>
+            </fieldset>
+            </div>
+            
+            <h3>Frameworks et Librairies</h3>
+            
+            <div class="lll">
+                
+            <fieldset id="sass" class="check">
+            <input type="checkbox"/>
+            <label for="">Sass</label>
+            </fieldset>
+        
+            <fieldset id="bootstrap" class="check">
+            <input type="checkbox"/>
+            <label for="">Bootstrap</label>
+            </fieldset>
+        
+            <fieldset id="symfony" class="check">
+            <input type="checkbox"/>
+            <label for="">Symfony</label>
+            </fieldset>
+        
+            <fieldset id="laravel" class="check">
+            <input type="checkbox"/>
+            <label for="">Laravel</label>
+            </fieldset>
+            </div>
+            
+            <h3>Logiciels</h3>
+            
+            <div class="lll">
+                
+            <fieldset id="photoshop" class="check">
+            <input type="checkbox"/>
+            <label for="">Photoshop</label>
+            </fieldset>
+        
+            <fieldset id="illustrator" class="check">
+            <input type="checkbox"/>
+            <label for="">Illustrator</label>
+            </fieldset>
+        
+            <fieldset id="xd" class="check">
+            <input type="checkbox"/>
+            <label for="">XD</label>
+            </fieldset>
+        
+            <fieldset id="figma" class="check">
+            <input type="checkbox"/>
+            <label for="">Figma</label>
+            </fieldset>
+            </div>
+            
+            <h3>Couleurs du CV</h3>
+            
+            <div class="deroulant">
+                <label for="color-select">Couleur</label>
+                <select id="color-select" name="color">
+                <option value="blue">Bleu</option>
+                <option value="green">Vert</option>
+                <option value="red">Rouge</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
